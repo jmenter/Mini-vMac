@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000000000000000000000000 /* MYOSGLUE.c in Sources */ = {isa = PBXBuildFile; fileRef = 000700000000000000000000 /* MYOSGLUE.c */; };
+		000000010000000000000000 /* GLOBGLUE.c in Sources */ = {isa = PBXBuildFile; fileRef = 000700010000000000000000 /* GLOBGLUE.c */; };
+		000000020000000000000000 /* M68KITAB.c in Sources */ = {isa = PBXBuildFile; fileRef = 000700020000000000000000 /* M68KITAB.c */; };
+		000000030000000000000000 /* MINEM68K.S in Sources */ = {isa = PBXBuildFile; fileRef = 000700030000000000000000 /* MINEM68K.S */; };
+		000000040000000000000000 /* VIAEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 000700040000000000000000 /* VIAEMDEV.c */; };
+		000000050000000000000000 /* IWMEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 000700050000000000000000 /* IWMEMDEV.c */; };
+		000000060000000000000000 /* SCCEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 000700060000000000000000 /* SCCEMDEV.c */; };
+		000000070000000000000000 /* RTCEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 000700070000000000000000 /* RTCEMDEV.c */; };
+		000000080000000000000000 /* ROMEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 000700080000000000000000 /* ROMEMDEV.c */; };
+		000000090000000000000000 /* SCSIEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 000700090000000000000000 /* SCSIEMDV.c */; };
+		0000000A0000000000000000 /* SONYEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 0007000A0000000000000000 /* SONYEMDV.c */; };
+		0000000B0000000000000000 /* SCRNEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 0007000B0000000000000000 /* SCRNEMDV.c */; };
+		0000000C0000000000000000 /* KBRDEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 0007000C0000000000000000 /* KBRDEMDV.c */; };
+		0000000D0000000000000000 /* SNDEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 0007000D0000000000000000 /* SNDEMDEV.c */; };
+		0000000E0000000000000000 /* MOUSEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 0007000E0000000000000000 /* MOUSEMDV.c */; };
+		0000000F0000000000000000 /* PROGMAIN.c in Sources */ = {isa = PBXBuildFile; fileRef = 0007000F0000000000000000 /* PROGMAIN.c */; };
+		000100000000000000000000 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 000A00000000000000000000 /* AppIcon.icns */; };
+		000200000000000000000000 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000B00000000000000000000 /* Carbon.framework */; };
+		000200010000000000000000 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000B00010000000000000000 /* OpenGL.framework */; };
+		000200020000000000000000 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000B00020000000000000000 /* AGL.framework */; };
+		000500000000000000000000 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001F00000000000000000000 /* dummy.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		000700000000000000000000 /* MYOSGLUE.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = MYOSGLUE.c; path = src/MYOSGLUE.c; sourceTree = SOURCE_ROOT; };
+		000700010000000000000000 /* GLOBGLUE.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = GLOBGLUE.c; path = src/GLOBGLUE.c; sourceTree = SOURCE_ROOT; };
+		000700020000000000000000 /* M68KITAB.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = M68KITAB.c; path = src/M68KITAB.c; sourceTree = SOURCE_ROOT; };
+		000700030000000000000000 /* MINEM68K.S */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.asm; name = MINEM68K.S; path = src/MINEM68K.S; sourceTree = SOURCE_ROOT; };
+		000700040000000000000000 /* VIAEMDEV.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = VIAEMDEV.c; path = src/VIAEMDEV.c; sourceTree = SOURCE_ROOT; };
+		000700050000000000000000 /* IWMEMDEV.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = IWMEMDEV.c; path = src/IWMEMDEV.c; sourceTree = SOURCE_ROOT; };
+		000700060000000000000000 /* SCCEMDEV.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = SCCEMDEV.c; path = src/SCCEMDEV.c; sourceTree = SOURCE_ROOT; };
+		000700070000000000000000 /* RTCEMDEV.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = RTCEMDEV.c; path = src/RTCEMDEV.c; sourceTree = SOURCE_ROOT; };
+		000700080000000000000000 /* ROMEMDEV.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ROMEMDEV.c; path = src/ROMEMDEV.c; sourceTree = SOURCE_ROOT; };
+		000700090000000000000000 /* SCSIEMDV.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = SCSIEMDV.c; path = src/SCSIEMDV.c; sourceTree = SOURCE_ROOT; };
+		0007000A0000000000000000 /* SONYEMDV.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = SONYEMDV.c; path = src/SONYEMDV.c; sourceTree = SOURCE_ROOT; };
+		0007000B0000000000000000 /* SCRNEMDV.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = SCRNEMDV.c; path = src/SCRNEMDV.c; sourceTree = SOURCE_ROOT; };
+		0007000C0000000000000000 /* KBRDEMDV.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = KBRDEMDV.c; path = src/KBRDEMDV.c; sourceTree = SOURCE_ROOT; };
+		0007000D0000000000000000 /* SNDEMDEV.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = SNDEMDEV.c; path = src/SNDEMDEV.c; sourceTree = SOURCE_ROOT; };
+		0007000E0000000000000000 /* MOUSEMDV.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = MOUSEMDV.c; path = src/MOUSEMDV.c; sourceTree = SOURCE_ROOT; };
+		0007000F0000000000000000 /* PROGMAIN.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = PROGMAIN.c; path = src/PROGMAIN.c; sourceTree = SOURCE_ROOT; };
+		000800000000000000000000 /* MYOSGLUE.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MYOSGLUE.h; path = src/MYOSGLUE.h; sourceTree = SOURCE_ROOT; };
+		000800010000000000000000 /* GLOBGLUE.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = GLOBGLUE.h; path = src/GLOBGLUE.h; sourceTree = SOURCE_ROOT; };
+		000800020000000000000000 /* M68KITAB.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = M68KITAB.h; path = src/M68KITAB.h; sourceTree = SOURCE_ROOT; };
+		000800030000000000000000 /* MINEM68K.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MINEM68K.h; path = src/MINEM68K.h; sourceTree = SOURCE_ROOT; };
+		000800040000000000000000 /* VIAEMDEV.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = VIAEMDEV.h; path = src/VIAEMDEV.h; sourceTree = SOURCE_ROOT; };
+		000800050000000000000000 /* IWMEMDEV.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = IWMEMDEV.h; path = src/IWMEMDEV.h; sourceTree = SOURCE_ROOT; };
+		000800060000000000000000 /* SCCEMDEV.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SCCEMDEV.h; path = src/SCCEMDEV.h; sourceTree = SOURCE_ROOT; };
+		000800070000000000000000 /* RTCEMDEV.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = RTCEMDEV.h; path = src/RTCEMDEV.h; sourceTree = SOURCE_ROOT; };
+		000800080000000000000000 /* ROMEMDEV.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ROMEMDEV.h; path = src/ROMEMDEV.h; sourceTree = SOURCE_ROOT; };
+		000800090000000000000000 /* SCSIEMDV.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SCSIEMDV.h; path = src/SCSIEMDV.h; sourceTree = SOURCE_ROOT; };
+		0008000A0000000000000000 /* SONYEMDV.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SONYEMDV.h; path = src/SONYEMDV.h; sourceTree = SOURCE_ROOT; };
+		0008000B0000000000000000 /* SCRNEMDV.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SCRNEMDV.h; path = src/SCRNEMDV.h; sourceTree = SOURCE_ROOT; };
+		0008000C0000000000000000 /* KBRDEMDV.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = KBRDEMDV.h; path = src/KBRDEMDV.h; sourceTree = SOURCE_ROOT; };
+		0008000D0000000000000000 /* SNDEMDEV.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SNDEMDEV.h; path = src/SNDEMDEV.h; sourceTree = SOURCE_ROOT; };
+		0008000E0000000000000000 /* MOUSEMDV.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MOUSEMDV.h; path = src/MOUSEMDV.h; sourceTree = SOURCE_ROOT; };
+		0008000F0000000000000000 /* PROGMAIN.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PROGMAIN.h; path = src/PROGMAIN.h; sourceTree = SOURCE_ROOT; };
+		000900000000000000000000 /* CNFGGLOB.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CNFGGLOB.h; path = src/CNFGGLOB.h; sourceTree = SOURCE_ROOT; };
+		000900010000000000000000 /* CNFGRAPI.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CNFGRAPI.h; path = src/CNFGRAPI.h; sourceTree = SOURCE_ROOT; };
+		000900020000000000000000 /* SYSDEPNS.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SYSDEPNS.h; path = src/SYSDEPNS.h; sourceTree = SOURCE_ROOT; };
+		000900030000000000000000 /* INTLCHAR.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = INTLCHAR.h; path = src/INTLCHAR.h; sourceTree = SOURCE_ROOT; };
+		000900040000000000000000 /* DATE2SEC.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = DATE2SEC.h; path = src/DATE2SEC.h; sourceTree = SOURCE_ROOT; };
+		000900050000000000000000 /* ENDIANAC.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ENDIANAC.h; path = src/ENDIANAC.h; sourceTree = SOURCE_ROOT; };
+		000900060000000000000000 /* COMOSGLU.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = COMOSGLU.h; path = src/COMOSGLU.h; sourceTree = SOURCE_ROOT; };
+		000900070000000000000000 /* STRCONST.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = STRCONST.h; path = src/STRCONST.h; sourceTree = SOURCE_ROOT; };
+		000900080000000000000000 /* CONTROLM.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CONTROLM.h; path = src/CONTROLM.h; sourceTree = SOURCE_ROOT; };
+		000900090000000000000000 /* EMCONFIG.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = EMCONFIG.h; path = src/EMCONFIG.h; sourceTree = SOURCE_ROOT; };
+		0009000A0000000000000000 /* CNFGRASM.i */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CNFGRASM.i; path = src/CNFGRASM.i; sourceTree = SOURCE_ROOT; };
+		0009000B0000000000000000 /* SCRNMAPR.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SCRNMAPR.h; path = src/SCRNMAPR.h; sourceTree = SOURCE_ROOT; };
+		000A00000000000000000000 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = AppIcon.icns; path = src/AppIcon.icns; sourceTree = SOURCE_ROOT; };
+		000B00000000000000000000 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		000B00010000000000000000 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		000B00020000000000000000 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = System/Library/Frameworks/AGL.framework; sourceTree = SDKROOT; };
+		000D00000000000000000000 /* minivmac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = minivmac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000E00000000000000000000 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = src/Info.plist; sourceTree = SOURCE_ROOT; };
+		001000000000000000000000 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = English; path = src/English.lproj/dummy.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		001100000000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000200000000000000000000 /* Carbon.framework in Frameworks */,
+				000200010000000000000000 /* OpenGL.framework in Frameworks */,
+				000200020000000000000000 /* AGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		001200000000000000000000 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				000700000000000000000000 /* MYOSGLUE.c */,
+				000700010000000000000000 /* GLOBGLUE.c */,
+				000700020000000000000000 /* M68KITAB.c */,
+				000700030000000000000000 /* MINEM68K.S */,
+				000700040000000000000000 /* VIAEMDEV.c */,
+				000700050000000000000000 /* IWMEMDEV.c */,
+				000700060000000000000000 /* SCCEMDEV.c */,
+				000700070000000000000000 /* RTCEMDEV.c */,
+				000700080000000000000000 /* ROMEMDEV.c */,
+				000700090000000000000000 /* SCSIEMDV.c */,
+				0007000A0000000000000000 /* SONYEMDV.c */,
+				0007000B0000000000000000 /* SCRNEMDV.c */,
+				0007000C0000000000000000 /* KBRDEMDV.c */,
+				0007000D0000000000000000 /* SNDEMDEV.c */,
+				0007000E0000000000000000 /* MOUSEMDV.c */,
+				0007000F0000000000000000 /* PROGMAIN.c */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		001300000000000000000000 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				000A00000000000000000000 /* AppIcon.icns */,
+				000E00000000000000000000 /* Info.plist */,
+				001F00000000000000000000 /* dummy.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		001400000000000000000000 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				000B00000000000000000000 /* Carbon.framework */,
+				000B00010000000000000000 /* OpenGL.framework */,
+				000B00020000000000000000 /* AGL.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		001500000000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000D00000000000000000000 /* minivmac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		001600000000000000000000 /* minivmac */ = {
+			isa = PBXGroup;
+			children = (
+				001200000000000000000000 /* Sources */,
+				001700000000000000000000 /* Headers */,
+				001800000000000000000000 /* Includes */,
+				001300000000000000000000 /* Resources */,
+				001400000000000000000000 /* External Frameworks and Libraries */,
+				001500000000000000000000 /* Products */,
+			);
+			name = minivmac;
+			sourceTree = "<group>";
+		};
+		001700000000000000000000 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				000800000000000000000000 /* MYOSGLUE.h */,
+				000800010000000000000000 /* GLOBGLUE.h */,
+				000800020000000000000000 /* M68KITAB.h */,
+				000800030000000000000000 /* MINEM68K.h */,
+				000800040000000000000000 /* VIAEMDEV.h */,
+				000800050000000000000000 /* IWMEMDEV.h */,
+				000800060000000000000000 /* SCCEMDEV.h */,
+				000800070000000000000000 /* RTCEMDEV.h */,
+				000800080000000000000000 /* ROMEMDEV.h */,
+				000800090000000000000000 /* SCSIEMDV.h */,
+				0008000A0000000000000000 /* SONYEMDV.h */,
+				0008000B0000000000000000 /* SCRNEMDV.h */,
+				0008000C0000000000000000 /* KBRDEMDV.h */,
+				0008000D0000000000000000 /* SNDEMDEV.h */,
+				0008000E0000000000000000 /* MOUSEMDV.h */,
+				0008000F0000000000000000 /* PROGMAIN.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		001800000000000000000000 /* Includes */ = {
+			isa = PBXGroup;
+			children = (
+				000900000000000000000000 /* CNFGGLOB.h */,
+				000900010000000000000000 /* CNFGRAPI.h */,
+				000900020000000000000000 /* SYSDEPNS.h */,
+				000900030000000000000000 /* INTLCHAR.h */,
+				000900040000000000000000 /* DATE2SEC.h */,
+				000900050000000000000000 /* ENDIANAC.h */,
+				000900060000000000000000 /* COMOSGLU.h */,
+				000900070000000000000000 /* STRCONST.h */,
+				000900080000000000000000 /* CONTROLM.h */,
+				000900090000000000000000 /* EMCONFIG.h */,
+				0009000A0000000000000000 /* CNFGRASM.i */,
+				0009000B0000000000000000 /* SCRNMAPR.h */,
+			);
+			name = Includes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		001900000000000000000000 /* minivmac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002200000000000000000000 /* Build configuration list for PBXNativeTarget "minivmac" */;
+			buildPhases = (
+				001B00000000000000000000 /* Resources */,
+				001E00000000000000000000 /* Sources */,
+				001100000000000000000000 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = minivmac;
+			productInstallPath = "$(HOME)/Applications";
+			productName = minivmac;
+			productReference = 000D00000000000000000000 /* minivmac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		001A00000000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+			};
+			buildConfigurationList = 002300000000000000000000 /* Build configuration list for PBXProject "minivmac" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 001600000000000000000000 /* minivmac */;
+			productRefGroup = 001500000000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				001900000000000000000000 /* minivmac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		001B00000000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000100000000000000000000 /* AppIcon.icns in Resources */,
+				000500000000000000000000 /* dummy.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		001E00000000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000030000000000000000 /* MINEM68K.S in Sources */,
+				000000000000000000000000 /* MYOSGLUE.c in Sources */,
+				000000010000000000000000 /* GLOBGLUE.c in Sources */,
+				000000020000000000000000 /* M68KITAB.c in Sources */,
+				000000040000000000000000 /* VIAEMDEV.c in Sources */,
+				000000050000000000000000 /* IWMEMDEV.c in Sources */,
+				000000060000000000000000 /* SCCEMDEV.c in Sources */,
+				000000070000000000000000 /* RTCEMDEV.c in Sources */,
+				000000080000000000000000 /* ROMEMDEV.c in Sources */,
+				000000090000000000000000 /* SCSIEMDV.c in Sources */,
+				0000000A0000000000000000 /* SONYEMDV.c in Sources */,
+				0000000B0000000000000000 /* SCRNEMDV.c in Sources */,
+				0000000C0000000000000000 /* KBRDEMDV.c in Sources */,
+				0000000D0000000000000000 /* SNDEMDEV.c in Sources */,
+				0000000E0000000000000000 /* MOUSEMDV.c in Sources */,
+				0000000F0000000000000000 /* PROGMAIN.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		001F00000000000000000000 /* dummy.txt */ = {
+			isa = PBXVariantGroup;
+			children = (
+				001000000000000000000000 /* English */,
+			);
+			name = dummy.txt;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		002000000000000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)";
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = src/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = minivmac;
+				SDKROOT = macosx;
+				SEPARATE_STRIP = YES;
+				STRIPFLAGS = "-u -r";
+				STRIP_INSTALLED_PRODUCT = YES;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wundef",
+					"-Wstrict-prototypes",
+					"-Wno-uninitialized",
+				);
+			};
+			name = Release;
+		};
+		002100000000000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		002200000000000000000000 /* Build configuration list for PBXNativeTarget "minivmac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002000000000000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		002300000000000000000000 /* Build configuration list for PBXProject "minivmac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002100000000000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 001A00000000000000000000 /* Project object */;
+}
